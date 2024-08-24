@@ -1,0 +1,214 @@
+:root{
+--StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-Bold.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-BoldItalic.ttf);
+}
+@font-face {
+    font-family:  'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-Italic.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-Light.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-Medium.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(Bai_Jamjuree/BaiJamjuree-SemiBoldItalic.ttf);
+}
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'bold';
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+body header{
+    background: url(images/bg-header-mobile.png);
+    background-size: cover;
+    padding: 40px;
+}
+body header .logo img{
+margin: 30px 0px;
+}
+body header .text h1{
+    color: var(--GrayishBlue);
+}
+body header .text :nth-child(2){
+ color: var(--GrayishBlue);
+ margin: 30px 0px;
+}
+body header .links a{
+    display: block;
+    margin: 20px 0px;
+    text-decoration: none;
+    color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+body header .links :first-child{
+    background-color: var(--StrongCyan)
+}
+body header .links :nth-child(2){
+    background-color: var(--LightBlue);
+}
+
+body .details{
+    padding: 40px;
+}
+body .details .text :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 15px;
+}
+body .details .text :nth-child(2){
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 50px;
+}
+
+body .details .details-device .device-img img{
+    width: 100%;
+}
+
+body .details .details-device .details-secs{
+    margin: 20px;
+}
+
+body .details .details-device .details-secs .sec :first-child{
+    color: var(--DarkGrayishBlue);
+    margin: 10px;
+}
+body .details .details-device .details-secs .sec :nth-child(2){
+    color: var(--GrayishBlue);
+}
+body .clipbord{
+    padding: 40px;
+}
+body .clipbord :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 20px;
+}
+body .clipbord :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 30px;
+}
+body .clipbord img{
+    width: 100%;
+}
+
+body .charge{
+    padding: 55px;
+}
+body .charge .charge-text :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 15px;
+}
+body .charge .charge-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 30px;
+}
+body .charge .cherge-secs{
+    margin: 30px;
+}
+body .charge .charge-details .cherge-secs{
+    margin: 40px 0px;
+} 
+body .charge .charge-details .charge-secs .sec :nth-child(2){
+    margin: 20px 0px;
+    color: var(--DarkGrayishBlue);
+    
+}
+body .charge .charge-details .charge-secs .sec :nth-child(3){
+    color: var(--GrayishBlue);
+    margin: 10px 0px;
+}
+body .charge .charge-images img{
+    display: block;
+    margin: 10px;
+    margin: 45px auto;
+}body .download {
+    padding: 55px;
+}
+body .download .download-text :first-child{
+    color: var(--DarkGrayishBlue);
+
+}
+body .download .download-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin: 20px 0px;
+}
+body .download .links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0px;
+}
+body .download .links  :first-child{
+    background-color: var(--StrongCyan);
+}body .download .links  :nth-child(2){
+    background-color: var(--LightBlue);
+}
+
+body footer {
+background-color: #e7e6e655;
+padding: 40px;
+}
+body footer .logo img{
+    width: 50px;
+}
+body footer .links a{
+    color: var(--GrayishBlue);
+    text-decoration: none;
+    margin: 10px 0px;
+    display: block;
+}
+body footer .sochial img{
+    margin: 0px 15px;
+}
